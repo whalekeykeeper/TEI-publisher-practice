@@ -1,6 +1,6 @@
 # TEI-publisher-practice
 
-*This is a repository for person practicing with TEI-publisher.*
+*This is a repository for personal practicing with TEI-publisher.*
 
 Finished session 1 and most part of session 2 of the workshop **Learn TEI Publisher**:
 
