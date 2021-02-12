@@ -5,6 +5,7 @@
 Finished session 1 and most part of session 2 of the workshop **Learn TEI Publisher**:
 1. https://www.youtube.com/watch?v=QuWrfAS2SWM&t=9s 
 2. https://www.youtube.com/watch?v=5qu94bhftpk&t=6s 
+
 Finished the assignment for session 1.
 
 Questions:
