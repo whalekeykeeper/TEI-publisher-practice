@@ -1,0 +1,8 @@
+{
+  "dependencies" : {
+    "@teipublisher/pb-components" : "1.14.0"
+  },
+  "name" : "shouchaobenDraftAPP",
+  "version" : "1.0.0",
+  "description" : "Shouchaoben Draft APP"
+}
