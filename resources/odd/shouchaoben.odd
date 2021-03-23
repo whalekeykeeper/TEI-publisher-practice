@@ -130,9 +130,57 @@
         </model><model output="web" predicate="@when" behaviour="alternate">
             <param name="default" value="."/>
             <param name="alternate" value="@when"/>
-        </model><model predicate="text()" behaviour="inline"/></elementSpec><elementSpec ident="graphics" mode="add"><model predicate="parent::facsimile" behaviour="inline">
-            <param name="url" value="@url"/>
-            <pb:template xmlns="" xml:space="preserve"><pb-facs-link facs="[[url]]" emit="transcription"/></pb:template>
-        </model></elementSpec></schemaSpec>
+        </model><model predicate="text()" behaviour="inline"/></elementSpec>
+
+                <elementSpec ident="graphics" mode="add">
+                    <model predicate="parent::facsimile" behaviour="inline">
+                        <param name="url" value="@url"/>
+                        <pb:template xmlns="" xml:space="preserve">
+                            <pb-facs-link facs="[[url]]" emit="transcription"/>
+                        </pb:template>
+                    </model>
+                </elementSpec>
+                
+                
+                
+<!--                <elementSpec ident="imagedata">-->
+<!--                    <model output="latex" behaviour="graphic">-->
+<!--                        <param name="url" value="@fileref"/>-->
+<!--                        <outputRendition xml:space="preserve">-->
+<!--                            max-width: 100%;-->
+<!--                        </outputRendition>-->
+<!--                    </model>-->
+<!--                    -->
+<!--                    <model behaviour="graphic">-->
+<!--                        <param name="url" value="@fileref"/>-->
+<!--                        <param name="width" value="@width"/>-->
+<!--                        <outputRendition xml:space="preserve">-->
+<!--                            max-width: 100%;-->
+<!--                        </outputRendition>-->
+<!--                    </model>-->
+<!--                </elementSpec>-->
+                
+<!--                <elementSpec ident="pb" mode="change">-->
+<!--                    <model behaviour="webcomponent" cssClass="facs">-->
+<!--                        <param name="name" value="'pb-facs-link'"/>-->
+<!--                        <param name="content" value="@n"/>-->
+<!--                        <param name="facs" value="replace(@facs, '^FFimg:(.*)$', '$1')"/>-->
+<!--                        <outputRendition>-->
+<!---->
+<!---->
+<!--                            font-size: 16px;-->
+<!--                            color: #888888;-->
+<!--                            cursor: pointer;-->
+<!--                            display: inline;-->
+<!--                            display: block;-->
+<!--                            margin-right: -32px;-->
+<!--                            float: right;-->
+<!---->
+<!--                        </outputRendition>-->
+<!--                    </model>-->
+<!--                </elementSpec>-->
+
+
+        </schemaSpec>
         </body>
     </text></TEI>
